@@ -351,13 +351,7 @@ export default function Navigation() {
 
                 {(['chaindesk', 'cs'] as ProductType[]).includes(product) && (
                   <Stack spacing={1}>
-                    <Link
-                      href={
-                        process.env.NODE_ENV === 'production'
-                          ? 'https://chat.chaindesk.ai/chat'
-                          : 'http://chat.localhost:3000/chat'
-                      }
-                    >
+                    <Link href={'/chat'}>
                       <Button
                         sx={{ width: '100%' }}
                         color="neutral"
@@ -380,13 +374,7 @@ export default function Navigation() {
                   </Stack>
                 )}
                 {(['chat'] as ProductType[]).includes(product) && (
-                  <Link
-                    href={
-                      process.env.NODE_ENV === 'production'
-                        ? 'https://app.chaindesk.ai/agents'
-                        : 'http://app.localhost:3000/agents'
-                    }
-                  >
+                  <Link href={'/agents'}>
                     <Button
                       sx={{ width: '100%' }}
                       color="neutral"
