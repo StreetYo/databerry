@@ -4,12 +4,12 @@ console.log(
   'aws',
   process.env.APP_AWS_S3_ENDPOINT,
   process.env.APP_AWS_S3_ENDPOINT ? 't' : 'f',
-  ...(process.env.APP_AWS_S3_ENDPOINT
+  process.env.APP_AWS_S3_ENDPOINT
     ? {
         endpoint: process.env.APP_AWS_S3_ENDPOINT,
         s3ForcePathStyle: process.env.APP_AWS_S3_FORCE_PATH_STYLE === 'true',
       }
-    : {})
+    : {}
 );
 
 export const s3 = new S3({
