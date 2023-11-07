@@ -51,6 +51,7 @@ export const generateUploadLink = async (
     Key: `agents/${agent?.id!}/${data.fileName}`,
     Expires: 900,
     ContentType: data.type,
+    ACL: 'public-read',
   };
 
   return s3.getSignedUrlPromise('putObject', param);
