@@ -1,5 +1,5 @@
 const getS3RootDomain = () => {
-  return `${process.env.NEXT_PUBLIC_AWS_ENDPOINT}`;
+  return `https://sjc1.vultrobjects.com/${process.env.NEXT_PUBLIC_S3_BUCKET_NAME}`;
 };
 
 export default getS3RootDomain;
