@@ -252,7 +252,7 @@ export default function Navigation() {
       // },
       {
         label: 'Settings',
-        route: RouteNames.SETTINGS,
+        route: RouteNames.PROFILE,
         icon: <ManageAccountsRoundedIcon fontSize="small" />,
         active: router.route.startsWith(RouteNames.SETTINGS),
         isExperimental: false,
