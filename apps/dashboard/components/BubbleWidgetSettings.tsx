@@ -45,7 +45,7 @@ export default function BubbleWidgetSettings(props: Props) {
     defer
     id="${props.agentId}"
     data-name="databerry-chat-bubble"
-    src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"
+    src="https://cdn.jsdelivr.net/npm/@streetyo/chat-bubble@latest"
   ></script>`;
   //   const installScript = `<script type="text/javascript">
   //   (function() {
@@ -53,7 +53,7 @@ export default function BubbleWidgetSettings(props: Props) {
   //     s = d.createElement('script');
   //     s.id = '${getAgentQuery?.data?.id}';
   //     s.setAttribute('data-name', 'databerry-chat-bubble');
-  //     s.src = 'https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest';
+  //     s.src = 'https://cdn.jsdelivr.net/npm/@streetyo/chat-bubble@latest';
   //     s.async = 1;
   //     d.getElementsByTagName('head')[0].appendChild(s);
   //   })();

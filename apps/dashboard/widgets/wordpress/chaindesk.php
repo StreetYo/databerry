@@ -1,15 +1,14 @@
 <?php
 /**
- * @package ChatbotGPT
+ * @package SupportAI
  * @version 1.0
- * Plugin Name: ChatbotGPT
- * Plugin URI: http://wordpress.org/plugins/databerry/
- * Description: Build ChatGPT Chat Bots trained on custom data
- * Author: Chaindesk
+ * Plugin Name: SupportAI
+ * Description: SupportAI is a Livechat plugin
+ * Author: SupportAI
  * Version: 1.0
- * Author URI: https://chaindesk.ai
+ * Author URI: https://ai.supportdatabases.com
  *
- * Text Domain: Chaindesk
+ * Text Domain: SupportAI
  * Domain Path: /languages/
 */
 
@@ -72,7 +71,7 @@ function chaindesk_plugin_settings_page()
     $http_callback = esc_url($protocol . $host . $request_uri);
 
     // $base_url = "http://localhost:3000";
-    $base_url = "https://app.chaindesk.ai";
+    $base_url = "https://ai.supportdatabases.com";
     $add_to_chaindesk_link = $base_url."/integrations/wordpress/config?callback=$http_callback&siteurl=".get_option('siteurl')."&agentId=".$agent_id;
 
 
@@ -132,7 +131,7 @@ function chaindesk_hook_head()
             data-cfasync='false' 
             data-name='databerry-chat-bubble'
             id='$agent_id_escaped'
-            src='https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest'
+            src='https://cdn.jsdelivr.net/npm/@streetyo/chat-bubble@latest'
         >";
 
         $output .= "</script>";

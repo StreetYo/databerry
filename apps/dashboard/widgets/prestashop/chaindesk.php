@@ -87,7 +87,7 @@ class Chaindesk extends Module
                 data-cfasync="false"
                 data-name="databerry-chat-bubble"
                 id="' . $agentId . '"
-                src="https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest"
+                src="https://cdn.jsdelivr.net/npm/@streetyo/chat-bubble@latest"
             ></script>';
 
             $output .= '<script>var chaindesk_script_enqueued = true;</script>';

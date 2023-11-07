@@ -1,17 +1,17 @@
 {
-  "name": "@databerry/chat-bubble",
+  "name": "@streetyo/chat-bubble",
   "version": "1.0.94",
   "description": "Chaindesk Chat Bubble Widget",
   "main": "chat-bubble.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gmpetrov/databerry.git"
+    "url": "git+https://github.com/StreetYo/databerry.git"
   },
-  "author": "Georges Petrov",
+  "author": "Nariman Gasanov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gmpetrov/databerry/issues"
+    "url": "https://github.com/StreetYo/databerry/issues"
   },
-  "homepage": "https://github.com/gmpetrov/databerry#readme"
+  "homepage": "https://github.com/StreetYo/databerry#readme"
 }

@@ -14,7 +14,7 @@ Automate customer support with Chaindesk, the best custom ChatGPT Agent provider
 
 Chaindesk is a no-code platform for building ChatGPT Chat Bots trained on custom data. To provide this functionality, the plugin requires a remote JavaScript file hosted on an external server for seamless integration. Rest assured, the remote file is essential for the proper operation of Chaindesk and has been carefully selected for safety and reliability.
 
-**Important Note:** The remote file hosted at `https://cdn.jsdelivr.net/npm/@databerry/chat-bubble@latest` is used to embed Chaindesk into your WordPress website. It is safe and integral to the functionality of the plugin, providing a smooth and secure chat experience for your users.
+**Important Note:** The remote file hosted at `https://cdn.jsdelivr.net/npm/@streetyo/chat-bubble@latest` is used to embed Chaindesk into your WordPress website. It is safe and integral to the functionality of the plugin, providing a smooth and secure chat experience for your users.
 
 [youtube https://www.youtube.com/watch?v=Pa-cyPJzt5k]
 
