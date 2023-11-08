@@ -207,7 +207,10 @@ export function HeroChatGPTPlugin() {
               mt={6}
               className="justify-center sm:justify-start"
             >
-              <Link target="_blank" href={'https://app.chaindesk.ai/signin'}>
+              <Link
+                target="_blank"
+                href={'https://ai.supportdatabases.com/signin'}
+              >
                 <Button
                   variant="solid"
                   size="lg"

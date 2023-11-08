@@ -59,7 +59,7 @@ export function Hero() {
           gap={2}
           mt={6}
         >
-          <Link target="_blank" href={'https://app.chaindesk.ai/signin'}>
+          <Link target="_blank" href={'https://ai.supportdatabases.com/signin'}>
             <Button
               variant="solid"
               size="lg"

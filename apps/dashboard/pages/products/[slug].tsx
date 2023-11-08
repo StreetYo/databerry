@@ -79,7 +79,10 @@ export default function ProductPage({ product }: PageProps) {
             </Stack>
           )}
 
-          <Link href={'https://app.chaindesk.ai/signin'} className="w-full">
+          <Link
+            href={'https://ai.supportdatabases.com/signin'}
+            className="w-full"
+          >
             <Button
               variant="solid"
               size="lg"
