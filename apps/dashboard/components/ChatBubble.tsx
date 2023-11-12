@@ -356,8 +356,8 @@ function App(props: { agentId: string; initConfig?: AgentInterfaceConfig }) {
                     padding: 0,
 
                     [theme.breakpoints.up('sm')]: {
-                      minHeight: '680px',
-                      maxHeight: '680px',
+                      minHeight: '500px',
+                      maxHeight: '75vh',
                     },
                     [theme.breakpoints.only('xs')]: {
                       height: '100%',
