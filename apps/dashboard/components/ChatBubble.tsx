@@ -388,6 +388,7 @@ function App(props: { agentId: string; initConfig?: AgentInterfaceConfig }) {
                     handleLoadMoreMessages={handleLoadMoreMessages}
                     handleEvalAnswer={handleEvalAnswer}
                     handleAbort={handleAbort}
+                    disableWatermark={true}
                     hideInternalSources
                     renderBottom={
                       <CustomerSupportActions config={state.config} />
