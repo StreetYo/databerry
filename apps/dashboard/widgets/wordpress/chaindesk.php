@@ -113,6 +113,12 @@ add_action('wp_head', 'chaindesk_hook_head', 1);
 
 function chaindesk_hook_head()
 {
+    $enable = apply_filters( 'chaindesk_enable', true );
+
+    if(!$enable) {
+        return;
+    }
+
     // Sanitize and validate the agent ID.
     $agent_id = get_option('chaindesk_agent_id');
     $agent_id = sanitize_text_field($agent_id);
