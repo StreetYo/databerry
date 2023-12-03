@@ -41,7 +41,7 @@ export const theme = extendTheme({
 });
 
 const defaultChatBubbleConfig: AgentInterfaceConfig = {
-  // displayName: 'Agent Smith',
+  displayName: 'How can I help you?',
   theme: 'light',
   primaryColor: '#000000',
   // initialMessage: 'Hi, how can I help you?',
