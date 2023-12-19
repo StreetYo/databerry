@@ -109,7 +109,7 @@ function chaindesk_plugin_settings_page()
     }
 }
 
-add_action('wp_head', 'chaindesk_hook_head', 1);
+add_action('wp_footer', 'chaindesk_hook_head', 1);
 
 function chaindesk_hook_head()
 {
@@ -138,6 +138,7 @@ function chaindesk_hook_head()
             data-name='databerry-chat-bubble'
             id='$agent_id_escaped'
             src='https://cdn.jsdelivr.net/npm/@streetyo/chat-bubble'
+            async
         >";
 
         $output .= "</script>";
